@@ -1,0 +1,162 @@
+body{
+    background-color: #ffffff;
+}
+.top-section{
+    background-image: url(./bg-hero-desktop.svg);
+    background-color:hsl(193, 100%, 96%) ;
+    height: 75vh;
+}
+.logo{
+    display: flex;
+}
+#logo{
+    margin-left: 6vw;
+    margin-top: 4vh;
+    height: 30px;
+}
+
+#try-it-free{
+    border: 2px solid rgb(248,248,248);
+    height: 4.5vh;
+    width: 8vw;
+    margin-top: 4vh;
+    margin-left: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 1rem;
+    background-color: rgb(248, 248, 248);
+}
+.top-middle{
+   display: flex;
+   margin-top: 5vh;
+}
+
+.text{
+   margin-left: 6vw;
+}
+
+#pink-button{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 2rem;
+    background-color:hsl(322, 100%, 66%) ;
+}
+#top-middle-image{
+    width: 40vw;
+    height: 30vw;
+    margin-left: 12vw;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+}
+.grow-together{
+    background-color: white;
+    box-shadow: 3px 3px 10px black ;
+    margin: 20px;
+    border: 2px solid  white;
+    border-radius: 1rem;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.grow-together-text{
+   display: grid;
+   place-content: center;
+   align-content: center;
+}
+#grow-together-image{
+    width: 30vw;
+    height: 50vh;
+}
+.flowing-conversations{
+    background-color: white;
+    margin: 20px;
+    border: 2px solid  white;
+    box-shadow: 3px 3px 10px black ;
+    border-radius: 1rem;
+    width: 70vw ;
+    display: flex;
+    justify-content: space-around;
+}
+
+#flowing-conversations-image{
+    width: 30vw;
+    height: 50vh;
+}
+
+.flowing-conversations-text{
+   display: grid;
+   place-content: center;
+   align-content: center;
+}
+.Your-users{
+    background-color: white;
+    margin: 20px;
+    border: 2px solid  white;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border-radius: 1rem;
+    width: 70vw ;
+    display: flex;
+    justify-content: space-around;
+}
+.your-users-text{
+   display: grid;
+   place-content: center;
+   align-content: center;
+}
+#your-users-image{
+    width: 30vw;
+    height: 50vh;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.top-bottom{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-bottom{
+   text-align: center;
+    width: 40vw;
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 2px 0px 3px black;
+}
+.pink-button{
+    padding: 7px;
+    color: white;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 2rem;
+   margin-left: 9vw;
+    width: 20vw;
+    background-color:hsl(322, 100%, 66%) ;
+}
+
+.bottom-bottom{
+    background-color: hsl(192, 100%, 9%);
+    height: 50vh;
+}
+
+.bottom-text{
+    display: flex;
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+}
+.third-div{
+    display: flex;
+    flex-direction: column;
+}
